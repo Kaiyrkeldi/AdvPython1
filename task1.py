@@ -1,5 +1,4 @@
 #Kabken Kaiyrkeldi SE-2008
-# from itertools import permutations
 
 def func():
     list_a = []
