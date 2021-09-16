@@ -8,7 +8,9 @@ def func():
     for i in range(0, a):
         list_item = input()
         list_a.append(list_item)
-    print(permute(list_a))
+    res = permute(list_a)
+    listToStr = ' '.join([str(elem) for elem in res])
+    print("(" + listToStr + ")")
 def permute(s):
     ch = list(s)
     if len(ch) == 2:
